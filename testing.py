@@ -2,7 +2,7 @@
 
 
 def greet():
-    """Print a greeting message."""
+    """Print a greeting message for the user."""
     print("Hello, I'm DevOps Engineer Sachin!!!")
 
 
