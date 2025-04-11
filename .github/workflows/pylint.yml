@@ -28,7 +28,7 @@ jobs:
           echo "Pylint score is: $SCORE"
 
           # Compare the score with threshold
-          THRESHOLD=5.0
+          THRESHOLD=3.0
           RESULT=$(echo "$SCORE > $THRESHOLD" | bc)
 
           if [ "$RESULT" -eq 1 ]; then
