@@ -1,4 +1,4 @@
-"""This module provides a greeting function for DevOps introductions."""
+"""This module provides a greeting function for DevOps introductions.."""
 
 
 def greet():
